@@ -1,8 +1,13 @@
-import Vue from 'vue'
-import App from './App.vue'
-import router from './router'
+import Vue from 'vue';
+import App from './App.vue';
+import router from './router';
 
-Vue.config.productionTip = false
+// 添加实例方法
+import './instanceFunc';
+
+Vue.config.productionTip = false;
+
+import './mock/index.ts';
 
 new Vue({
   router,
