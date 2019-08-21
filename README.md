@@ -1,5 +1,7 @@
 # ts-demo
 
+test demo project for vue and ts
+
 ## Project setup
 ```
 npm install
