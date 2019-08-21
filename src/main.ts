@@ -2,6 +2,7 @@ import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
 
+import './styles/app.less';
 // 添加实例方法
 import './instanceFunc';
 
