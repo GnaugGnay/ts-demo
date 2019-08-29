@@ -21,7 +21,7 @@ export default Vue.extend({
 			method: 'post',
 			data: {},
 		}).then((res: {}) => {
-			// console.log(res);
+			console.log(res);
 		});
 	}
 });

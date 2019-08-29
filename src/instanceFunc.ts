@@ -3,9 +3,9 @@ import ajax from './ajax';
 
 Vue.prototype.$ajax = ajax;
 
-// 通过ts编译
+// Vue原型链方法
 declare module 'vue/types/vue' {
     interface Vue {
-        $ajax: Function
+        $ajax: Function,
     }
 }

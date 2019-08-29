@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit",
+    "format": "node prettier.js"
   },
   "dependencies": {
     "axios": "^0.19.0",
@@ -26,6 +27,8 @@
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
     "mockjs": "^1.0.1-beta3",
+    "tslint": "^5.19.0",
+    "tslint-loader": "^3.5.4",
     "typescript": "^3.4.3",
     "vue-template-compiler": "^2.6.10"
   }
